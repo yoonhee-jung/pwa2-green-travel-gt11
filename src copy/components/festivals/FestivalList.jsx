@@ -10,7 +10,7 @@ import { setFestivalInfo } from '../../store/slices/festivalShowSlice.js';
 
 function FestivalList() {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
 
   const festivalList = useSelector(state => state.festival.list);
@@ -60,7 +60,7 @@ function redirectShow(item) {
     <>
       <div className="container">
         {
-          festivalList && 
+          // festivalList && festivalList.map(item => {
           festivalList.map(item => {
             return (
               <div className="card" onClick={() => {redirectShow(item)}} key={item.contentid + item.createdtime}>
