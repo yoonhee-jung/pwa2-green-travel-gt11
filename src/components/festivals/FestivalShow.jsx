@@ -47,4 +47,4 @@ const item = festivalList.find(item => params.id === item.contentid);
 }
 
 
-export default FestivalShow
+export default FestivalShow;
