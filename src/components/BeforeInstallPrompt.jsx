@@ -44,11 +44,12 @@ function BeforeInstallPrompt() {
     <>
     {
       defferdPrompt && // <button type="button" onClick={handleInstall}>다운로드</button>
-    (
-      <div className="prompt-container">
+  
+      (
+        <div className="prompt-container">
         <p className="prompt-info">다운로드하여 사용할 수 있습니다.</p>
         <button onClick={handleInstall} className="prompt-btn" type="button">다운로드</button>
-      </div>
+        </div>
     )
     }
     </>

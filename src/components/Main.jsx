@@ -6,7 +6,11 @@ function Main() {
 
   return (
     <>
-      <img className='title-img' onClick={() => { navigate('/festivals') }} src='/base/andon_tal.png' alt="대문" />
+    <h1 className="titleMain">Green Travel</h1>
+    <div className="containerMain">
+      <img className='title-img' onClick={() => { navigate('/festivals') }} src='/base/andon_tal.png' alt="축제 리스트" />
+      <button className="buttonStay" onClick={() => { navigate('/stays')}} type="button">숙박</button>
+    </div>
     </>
   )
 }

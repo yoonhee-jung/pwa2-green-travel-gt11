@@ -1,7 +1,7 @@
 const axiosConfig = {
-  SERVICE_KEY: 'Sggtbv9ZxiI+NorH9Hn8yBTilwEnaBywr9mqPBUEum0nWykwDK4e/Rsato8S5HqsR2XbKOBclASK/rBPVpWLTg==',
+  SERVICE_KEY: '17597902dc8f58a3494ac35b793fe6990adff432fd1595ecdee96800b0a7eea8',
   MOBILE_OS: 'WEB',
-  MOBILE_App: 'GreenTravel',
+  MOBILE_App: 'GT',
   TYPE: 'json',
   ARRANGE: 'O',
   BASE_URL: 'https://apis.data.go.kr/B551011/KorService2',

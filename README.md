@@ -6,7 +6,7 @@ npm i react-router-dom @reduxjs/toolkit react-redux redux-thunk axios
 
 npm install -D vite-plugin-pwa
 
-2.  MAnifest설정
+2.  Manifest설정
 =`vite.config.js`에 pwa Manifest 설정을 추가
 =아이콘 이미지는 아래의 사이즈별로 필요
     =180*180(iOS), 192*192(web | android), 512*512(web | android)
